@@ -29,7 +29,7 @@
             </web-module-libraries>
             <web-module-additional-libraries/>
             <source-roots>
-                <root id="src.dir" name="Source Packages"/>
+                <root id="src.java.dir" name="Source Packages"/>
             </source-roots>
             <test-roots/>
         </data>
