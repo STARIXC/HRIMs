@@ -108,10 +108,10 @@ public class LogTimesheet extends HttpServlet {
       for (int p = 0; p < log_date.length; p++) {
         id=log_date[p]+"_"+emp_no;
         String sql = "REPLACE INTO timesheet_log_activities"
-                + "(activity_log_id,hours_worked,leave_hours,public_holiday,extra,log_date,emp_no,log_no,activity_desc)"
+                + "(activity_log_id,hours_worked,leave_hours,public_holiday,extra,log_date,emp_no,log_no,activity_desc,month,year)"
                 + " VALUES ('" +id + "','" + a_hours_worked[p] + "','" + leave[p] + "',"
                 + "'" + holiday[p] + "','" + extra[p] + "','" + log_date[p] + "','" + emp_no + "','" + log_no
-                + "','" + activity_desc[p]+"')";
+                + "','" + activity_desc[p]+"','" + month + "','" + year + "')";
         //System.out.println(a_hours_worked[p]);
       //  System.out.println("Log Query Date:" + sql);
         dao.addActivityLog(sql);
