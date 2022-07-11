@@ -8,7 +8,7 @@
       <script defer src="assets/fontawesome/js/all.min.js"></script>
       <link rel="stylesheet" href="assets/vendors/chartjs/Chart.min.css">
       <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
-      <link rel="stylesheet" href="assets/css/app.css">
+      <link rel="stylesheet" href="assets/css/app_.css">
       <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
       <style type="text/css">
         .notif:hover{

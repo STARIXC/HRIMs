@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <script defer src="assets/fontawesome/js/all.min.js"></script>
 <script defer src="assets/fontawesome/js/all.min.js"></script>
-<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/app_.css">
 </head>
 
 <body>
